@@ -1,0 +1,30 @@
+{
+  "name": "simple-broadcast-chat-nodejs-websocket",
+  "version": "0.0.1",
+  "description": "Simple example of using Websockets with node.js and TypeScript",
+  "main": "./src/server/server.js",
+  "scripts": {
+    "start": "node ./src/server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Behzadkhosravifar/simple-broadcast-chat-nodejs-websocket.git"
+  },
+  "keywords": [
+    "chat",
+    "websocket"
+  ],
+  "author": "Behzad Khosravifar <behzad.khosravifar@gmail.com>",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/Behzadkhosravifar/simple-broadcast-chat-nodejs-websocket/issues"
+  },
+  "dependencies": {
+    "websocket": ">=1.0.8"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">=0.6"
+  }
+}
